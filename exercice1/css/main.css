@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 0;
+}
+.pagecontent{
+    float: left;
+    height: 70%;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    margin: 0% 15%;
+}
+header{
+    float: left;
+    background-color: #00ffff;
+    height: 15%;
+    width: 100%;
+}
+nav{
+    float: left;
+    background-color: #812e81;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+}
+#carrousel{
+    float: left;
+    background-color: #e5ff00;
+    height: 50%;
+    width: 100%;
+    margin: 0;
+}
+.sect{
+    float: left;
+    background-color: #db7f9a;
+    height: 35%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sect article{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+footer{
+    float: left;
+    background-color: #00ffff;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+}
