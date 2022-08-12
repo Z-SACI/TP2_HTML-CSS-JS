@@ -5,55 +5,88 @@ html{
 body{
     height: 100%;
     width: 100%;
-    background-color: chartreuse;
+    background: url(../img/background.webp) no-repeat;
+    background-size: cover;
     margin: 0;
+}
+header{
+    float: left;
+    height: 15%;
+    width: 100%;
 }
 .pagecontent{
     float: left;
     height: 70%;
     width: 70%;
-    margin: 0;
-    padding: 0;
-    background-color: beige;
     margin: 0% 15%;
+    padding: 0;
 }
-header{
+.common{
     float: left;
-    background-color: #00ffff;
-    height: 15%;
+    margin : 0.5% 0%;  
     width: 100%;
 }
 nav{
-    float: left;
-    background-color: #812e81;
-    height: 15%;
-    width: 100%;
+    background: linear-gradient(#5d5dd6 , #272746);
+    height: 9%;
+    border-radius: 30px;
+}
+nav ul {
     margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0% 2% ;
+    padding: 1%;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f5f5f5;
 }
 #carrousel{
-    float: left;
-    background-color: #e5ff00;
-    height: 50%;
-    width: 100%;
-    margin: 0;
+    background-color: #afb19e;
+    height: 54%;
+}
+#carrousel img{
+    width: 99%;
+    height: 96%;
+    border: 5px solid #1f1f1f ;
+
 }
 .sect{
-    float: left;
-    background-color: #db7f9a;
-    height: 35%;
-    width: 100%;
-    margin: 0;
+    background-color: #f5f5f5;
+    height: 34%;
     padding: 0;
 }
 .sect article{
     float: left;
     height: 100%;
     width: 30%;
+    margin: 0% 1.5%;
+}
+.art_common{    
+    float: left;
+}
+.sect img{
+    height: 30%;
+    margin: 3% 2% 0% 2%;
+}
+.sect article aside{
+    height: 60%;
+    overflow: hidden;
+    text-align: justify;
 }
 footer{
     float: left;
-    background-color: #00ffff;
     height: 15%;
     width: 100%;
     margin: 0;
+}
+footer p{
+    text-align: center;
+    margin: 2%;
+    color:#f5f5f5;
 }
