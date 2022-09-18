@@ -16,26 +16,40 @@
                     <li><a href="#">AJAX</a></li>
                 </ul>
             </nav>
-            <div id="carrousel" class="common">
-                <img src="img/slide_shanghai.jpg">
+            <div class="carrousel">
+                <button class="button previous" onclick="nextslide(-1)"><</button>
+                <button class="button next" onclick="nextslide(1)">></button>
+                <div class="common slide">
+                    <img src="img/slide1.jpg">
+                </div>
+                <div class="common slide">
+                    <img src="img/slide2.jpg">
+                </div>
+                <div class="common slide">
+                    <img src="img/slide3.jpg">
+                </div>
+                <div class="common slide">
+                    <img src="img/slide4.jpg">
+                </div>
             </div>
+            
             <section class="sect common">
                 <article>
                     <img src="img/logo_html5.png" class="art_common">
                     <h3 class="art_common">HTML</h3>
-                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus. Blanditiis sapiente eveniet nam illum, fugiat ea aliquid corrupti non a reiciendis exercitationem.
+                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus.
                     </aside>
                 </article>
                 <article>
                     <img src="img/logo_js.png" class="art_common">
                     <h3 class="art_common">JavaScript</h3>
-                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus. Blanditiis sapiente eveniet nam illum, fugiat ea aliquid corrupti non a reiciendis exercitationem.
+                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus. 
                     </aside>
                 </article>
                 <article>
                     <img src="img/logo_ajax.png" class="art_common">
                     <h3 class="art_common">AJAX</h3>
-                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus. Blanditiis sapiente eveniet nam illum, fugiat ea aliquid corrupti non a reiciendis exercitationem.
+                    <aside class="art_common">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vero incidunt quam, eius porro dolores sunt possimus.
                     </aside>
                 </article>
             </section>
@@ -45,3 +59,4 @@
         </footer>
     </body>
 </html>
+<script src="js/carrousel.js"></script>
