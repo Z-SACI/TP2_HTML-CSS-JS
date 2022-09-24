@@ -1,3 +1,5 @@
+// CREDITS
+//I made this script with the help of Web Dev Simplified tutorials on youtube
 id=1;
 carrousel();
 //function next/previous buttons
@@ -31,7 +33,6 @@ function carrousel(){
         id=slides.length;
     }
     for(i=0;i<slides.length;i++){
-        //console.log(slides[i]);
         slides[i].style.display="none";
     }
     slides[id-1].style.display="block";

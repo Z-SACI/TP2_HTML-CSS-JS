@@ -1,3 +1,4 @@
+/* page style */
 html{
     height: 100%;
     width: 100%;
@@ -9,11 +10,13 @@ body{
     background-size: cover;
     margin: 0;
 }
+/* header style */
 header{
     float: left;
     height: 15%;
     width: 100%;
 }
+/* content style */
 .pagecontent{
     float: left;
     height: 70%;
@@ -21,11 +24,13 @@ header{
     margin: 0% 15%;
     padding: 0;
 }
+/* common styles used */
 .common{
     float: left;
     margin : 0.5% 0%;  
     width: 100%;
 }
+/* navigation bar style */
 nav{
     background: linear-gradient(#5d5dd6 , #272746);
     height: 9%;
@@ -46,12 +51,14 @@ nav ul li a{
     font-weight: bold;
     color: #f5f5f5;
 }
+/* carrousel bloc container style */
 .carrousel{
     float: left;
     background-color: #afb19e;
     height: 54%;
     width: 100%;
 }
+/* left and right button used in caroussel style */
 .button{
     padding: 0;
     margin: 5px;
@@ -76,6 +83,7 @@ nav ul li a{
 .next{
     right: 15%;
 }
+/* images style */
 .slide{
     background-color: #afb19e;
     height: 100%;
@@ -87,6 +95,7 @@ nav ul li a{
     height: 96%;
     border: 5px solid #1f1f1f ;
 }
+/* section box style */
 .sect{
     background-color: #f5f5f5;
     height: 34%;
@@ -110,6 +119,7 @@ nav ul li a{
     overflow: hidden;
     text-align: justify;
 }
+/* footer style */
 footer{
     float: left;
     height: 15%;

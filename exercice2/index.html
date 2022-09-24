@@ -2,56 +2,65 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>image animation</title>
+        <title>Image Animation</title>
+        <!-- styles associated to the page including google fonts -->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/content.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
     <body>
         <header>
-            <h1>Sweet Memories Galery</h1>
+            <h1>Sweet Memories Gallery</h1>
         </header>
-        <section class="content">
-            <div>
-                <img src="img/1660611957761.jpg">
-                <h4>Roman Museum - Cherchell</h4>
+        <!-- page content with draggable items assembled in section -->
+        <section class="content" id="dragdrop">
+            <div id="1" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img1.jpg">
+                Le Petit Vichy
             </div>
-            <div>
-                <img src="img/IMG_20220702_145252.jpg">
-                <h4>Iced Coffee time</h4>
+            <div id="2" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img2.jpg">
+                Roman Museum 
             </div>
-            <div>
-                <img src="img/1660611957741.jpg">
-                <h4>Cherchell Museum</h4>
+            <div id="3" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img3.jpg">
+                Cherchell Museum
             </div>    
-            <div>
-                <img src="img/1660610404221.jpg">
-                <h4>Pink Vibes</h4>
+            <div id="4" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img4.jpg">
+                khayma at Mosta
             </div>
-            <div>
-                <img src="img/1660610404261.jpg">
-                <h4>Morning Beach</h4>
+            <div id="5" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img5.jpg">
+                Cap Ivi
             </div>
-            <div>
-                <img src="img/1660610404320.jpg">
-                <h4>Sunset at Le Petit Vichy</h4>
+            <div id="6" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img6.jpg">
+                Something Warm
             </div>
-            <div>
-                <img src="img/1660611079656.jpg">
-                <h4>Les beignets</h4>
+            <div id="7" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img7.jpg">
+                Flowers
             </div>
-            <div>
-                <img src="img/1660611957688.jpg">
-                <h4>Coffee Time Hel&Na</h4>
+            <div id="8" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img8.jpg">
+                Jardin - Wahran
             </div>      
-            <div>
-                <img src="img/1660611957721.jpg">
-                <h4>Cappuccino Time</h4>
+            <div id="9" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img9.jpg">
+                Sunset - Bouzareah
             </div>
-            <div>
-                <img src="img/1660610404205.jpg">
-                <h4>Sunset - Bouzareah</h4>
+            <div id="10" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img10.jpg">
+                Beach Time
+            </div>
+            <div id="11" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img11.jpg">
+                Rechgoun
+            </div>
+            <div id="12" class="drag" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="dragover(event)">
+                <img src="img/img12.jpg">
+                Coffe Time
             </div>
         </section>
         <footer>
@@ -59,5 +68,6 @@
         </footer>
     </body>
 </html>
-<script src="js/bg_color.js"></script>
+<!-- scripts associated to the page -->
+<script src="js/bgcolor.js" onload="bgcolor()" ></script>
 <script src="js/dragdrop.js"></script>
